@@ -1,0 +1,32 @@
+@import 'variables';
+
+@mixin focus-ring($color: $accent-blue, $offset: 2px) {
+  &:focus-visible {
+    outline: 2px solid $color;
+    outline-offset: $offset;
+  }
+}
+
+@mixin from-tablet {
+  @media (min-width: $layout-mobile) {
+    @content;
+  }
+}
+
+@mixin from-desktop {
+  @media (min-width: $layout-desktop) {
+    @content;
+  }
+}
+
+@mixin below-desktop {
+  @media (max-width: ($layout-desktop - 1px)) {
+    @content;
+  }
+}
+
+@mixin below-mobile {
+  @media (max-width: ($layout-mobile - 1px)) {
+    @content;
+  }
+}

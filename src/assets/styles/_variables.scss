@@ -1,0 +1,54 @@
+// Market terminal palette, aligned with CoinMarketCap and TradingView.
+$primary: #3861fb;
+$secondary: #eff2f5;
+$accent-blue: #3861fb;
+$accent-gold: #f5b942;
+
+// Neutrals
+$bg-page: #f8fafd;
+$bg-card: #ffffff;
+$bg-elevated: #f4f6f9;
+$border-color: #eff2f5;
+
+$text-primary: #0d1421;
+$text-secondary: #616e85;
+$text-muted: #808a9d;
+
+$positive: #16c784;
+$negative: #ea3943;
+
+$text-on-primary: #ffffff;
+$text-on-primary-muted: rgba(255, 255, 255, 0.72);
+
+// Typography
+$font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$font-size-xs: 12px;
+$font-size-sm: 13px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-size-xl: 20px;
+$font-size-2xl: 24px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+
+$line-height-tight: 1.25;
+$line-height-base: 1.5;
+
+// Spacing
+$spacing-1: 4px;
+$spacing-2: 8px;
+$spacing-3: 12px;
+$spacing-4: 16px;
+$spacing-5: 24px;
+$spacing-6: 32px;
+$spacing-8: 48px;
+
+// Layout
+$header-height: 56px;
+$drawer-width: 240px;
+$layout-mobile: 768px;
+$layout-desktop: 1280px;
+$border-width: 1px;
