@@ -4,6 +4,8 @@ Real-time cryptocurrency analytics. Track the market, starred coins, and your ow
 
 Prices refresh about every 30 seconds. Quote currencies include USD, EUR, GBP, TL, JPY, AUD, CAD, BRL, and MXN. Light and dark themes are available, and the layout works on phone, tablet, and desktop.
 
+**Live:** https://cryptpulsee.netlify.app
+
 ## Features
 
 - **Dashboard** — market overview and a price chart
